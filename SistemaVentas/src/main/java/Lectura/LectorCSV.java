@@ -6,29 +6,47 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class LectorCSV {
+    private final List<String> errores = new ArrayList<>();
     public List<Venta> leer(String ruta) throws Exception {
         List<Venta> ventas = new ArrayList<>();
+        errores.clear();
         try (CSVReader reader = new CSVReader(new FileReader(ruta))) {
             String[] fila;
             reader.readNext();
-
+           int numeroFila = 1;
             while ((fila = reader.readNext()) != null) {
+                numeroFila++;
 
-                Venta venta = new Venta(
-                    Integer.parseInt(fila[0]),
-                    fila[1],
-                    fila[2],
-                    fila[3],
-                    fila[4],
-                    Integer.parseInt(fila[5]),
-                    Double.parseDouble(fila[6]),
-                    fila[7]
-                );
+                try {
+                    if (fila.length != 8) {
+                        throw new IllegalArgumentException(
+                                "La fila debe tener 8 columnas");
+                    }
 
-                ventas.add(venta);
+                    Venta venta = new Venta(
+                        Integer.parseInt(fila[0].trim()),
+                        fila[1].trim(),
+                        fila[2].trim(),
+                        fila[3].trim(),
+                        fila[4].trim(),
+                        Integer.parseInt(fila[5].trim()),
+                        Double.parseDouble(fila[6].trim()),
+                        fila[7].trim()
+                    );
+
+                    ventas.add(venta);
+
+                } catch (RuntimeException e) {
+                    errores.add("Archivo: " + ruta
+                            + " | Fila: " + numeroFila
+                            + " | Motivo: " + e.getMessage());
+                }
             }
         }
 
         return ventas;
+    }
+    public List<String> getErrores() {
+        return new ArrayList<>(errores);
     }
 }

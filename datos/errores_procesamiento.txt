@@ -1,0 +1,7 @@
+===== ERRORES DE PROCESAMIENTO =====
+
+--- Errores de lectura ---
+
+--- Errores de validación ---
+
+--- Registros duplicados ---
