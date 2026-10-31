@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ventas>
+    <venta>
+        <idVenta>6</idVenta>
+        <fecha>2026-10-06</fecha>
+        <sucursal>Centro</sucursal>
+        <codigoProducto>PAN006</codigoProducto>
+        <producto>Galletas</producto>
+        <cantidad>8</cantidad>
+        <precioUnitario>3.50</precioUnitario>
+        <vendedor>Pedro</vendedor>
+    </venta>
+    <venta>
+        <idVenta>7</idVenta>
+        <fecha>2026-10-07</fecha>
+        <sucursal>Norte</sucursal>
+        <codigoProducto>PAN007</codigoProducto>
+        <producto>Pastel de chocolate</producto>
+        <cantidad>2</cantidad>
+        <precioUnitario>25.00</precioUnitario>
+        <vendedor>Ana</vendedor>
+    </venta>
+</ventas>
