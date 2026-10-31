@@ -1,0 +1,22 @@
+[
+  {
+    "idVenta": 4,
+    "fecha": "2026-10-04",
+    "sucursal": "Centro",
+    "codigoProducto": "PAN004",
+    "producto": "Donas",
+    "cantidad": 6,
+    "precioUnitario": 6.00,
+    "vendedor": "Carlos"
+  },
+  {
+    "idVenta": 5,
+    "fecha": "2026-10-05",
+    "sucursal": "Norte",
+    "codigoProducto": "PAN005",
+    "producto": "Croissants",
+    "cantidad": 4,
+    "precioUnitario": 8.00,
+    "vendedor": "Ana"
+  }
+]

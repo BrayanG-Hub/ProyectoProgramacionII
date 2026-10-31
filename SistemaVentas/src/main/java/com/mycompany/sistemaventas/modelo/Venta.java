@@ -2,6 +2,8 @@ package com.mycompany.sistemaventas.modelo;
 
 
 public class Venta {
+        public Venta() {
+    }
     private int idVenta;
 private String fecha;
 private String sucursal;
