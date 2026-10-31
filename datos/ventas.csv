@@ -1,0 +1,4 @@
+id_venta,fecha,sucursal,codigo_producto,producto,cantidad,precio_unitario,vendedor
+1,2026-10-01,Centro,PAN001,Pan frances,10,1.50,Carlos
+2,2026-10-02,Norte,PAN002,Pan dulce,5,2.00,Ana
+3,2026-10-03,Centro,PAN003,Conchas,8,3.00,Pedro
