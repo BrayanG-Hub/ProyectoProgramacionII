@@ -1,0 +1,41 @@
+===== REPORTE DE ANALISIS DE VENTAS =====
+
+Total de registros recibidos: 10
+Ventas validas y sin duplicados: 8
+Registros rechazados: 1
+Registros duplicados: 1
+Porcentaje de registros rechazados: 10.00%
+Total de ingresos: Q199.50
+Promedio por transaccion: Q24.94
+Venta de mayor valor: Q50.00
+Venta de menor valor: Q4.50
+Producto con mayores ingresos: Pastel de chocolate
+Producto con menores ingresos: Pan dulce
+Transaccion mayor: ID 7 - Q50.00
+Transaccion menor: ID 9 - Q4.50
+
+--- VENTAS POR SUCURSAL ---
+Centro: Q107.50
+Norte: Q92.00
+
+--- VENTAS POR PRODUCTO ---
+Conchas: Q24.00
+Pan frances: Q19.50
+Donas: Q36.00
+Croissants: Q32.00
+Galletas: Q28.00
+Pastel de chocolate: Q50.00
+Pan dulce: Q10.00
+
+--- VENTAS POR VENDEDOR ---
+Ana: Q92.00
+Pedro: Q52.00
+Carlos: Q55.50
+
+--- VENTAS POR MES ---
+2026-10: Q199.50
+
+--- TOP 3 VENDEDORES ---
+Ana: Q92.00
+Carlos: Q55.50
+Pedro: Q52.00

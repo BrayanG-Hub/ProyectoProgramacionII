@@ -3,5 +3,7 @@
 --- Errores de lectura ---
 
 --- Errores de validación ---
+Archivo: ventas.csv | Registro: 5 | ID: 8 | Motivo: La cantidad debe ser mayor que cero
 
 --- Registros duplicados ---
+Archivo: archivos integrados | ID de venta duplicado: 1
